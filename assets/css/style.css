@@ -1,0 +1,65 @@
+body {
+    
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+/* @font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-weight: 500;
+} */
+
+.tasks {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.tasks h1 {
+    color: #443c3c;
+}
+
+.one-block {
+    background-color: rgba(137, 43, 226, 0.445);
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 700px;
+    border-radius: 15px;
+    box-shadow: 10px 2px 30px 2px #18171733;
+}
+
+.two-block {
+    background-color: rgba(156, 226, 44, 0.445);
+    width: 500px;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+    border-radius: 15px;
+    box-shadow: 10px 2px 30px 2px #18171733;
+}
+
+.three-block {
+    background-color: rgba(211, 39, 139, 0.445);
+    width: 450px;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+    padding:  0 30px;
+    border-radius: 15px;
+    box-shadow: 10px 2px 30px 2px #18171733;
+}
